@@ -1,6 +1,6 @@
 # netserverenum
 
-VB6 working copy of `netserverenum` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Project1. `VersionCompanyName`: CSC.
+CSC VB6 domain machine enumerator (project Project1). Enter a domain name and `&NetServerEnum` calls NetAPI32 `NetServerEnum` at info level 100 with `SV_TYPE_NT`, then fills a ListView with the active NT computer names returned for that domain.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,7 +10,7 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `NetServerEnum` (`Project1.vbp`) | VB6 | WinForms exe | Project1 |
+| `NetServerEnum` (`Project1.vbp`) | VB6 | WinForms exe | Domain NetServerEnum ListView of NT hosts |
 
 ## How to open
 
@@ -30,4 +30,4 @@ Company names in project files: CSC.
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+MIT (c) 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
